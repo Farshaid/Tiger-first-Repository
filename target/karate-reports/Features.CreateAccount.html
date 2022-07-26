@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("1cf70bb8-0c45-418e-b635-e5555c34f1d8",{name:"Farsh"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>Features.CreateAccount</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-07-20 07:16:48 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:11]"><span>[1:11]</span> <span>Create new Account happy path</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:19]"><span>[2:19]</span> <span>Create account with an exisiting email Address</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">Features/CreateAccount.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Create Account</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Regression</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:11]</span>
+                <span class="scenario-name">Create new Account happy path</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>978</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:11]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://tek-insurance-api.azurewebsites.net/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;supervisor&quot;,&quot;password&quot;: &quot;tek_supervisor&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">445</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">19:16:47.195 request:
+1 &gt; POST https://tek-insurance-api.azurewebsites.net/api/token
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 53
+1 &gt; Host: tek-insurance-api.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;supervisor&quot;,&quot;password&quot;:&quot;tek_supervisor&quot;}
+
+19:16:47.639 response time in milliseconds: 443
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Date: Wed, 20 Jul 2022 23:16:47 GMT
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Expires: 0
+1 &lt; Pragma: no-cache
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Origin
+1 &lt; Vary: Access-Control-Request-Method
+1 &lt; Vary: Access-Control-Request-Headers
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 &lt; X-Frame-Options: DENY
+{&quot;fullName&quot;:&quot;Supervisor&quot;,&quot;username&quot;:&quot;SUPERVISOR&quot;,&quot;token&quot;:&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2NTg0NDU0MDcsImlhdCI6MTY1ODM1OTAwN30.8I9NwO0G4LjNgNxT1m65Gm5rnlYWKAvJNE2y4BQev_q-fgU2M1n5mBuE1Mx4pKb_QnpSvBx50ic99S19MeIsxg&quot;,&quot;generateDate&quot;:1658359007040,&quot;accountType&quot;:&quot;CSR&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:11]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def generatedToken = response.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/accounts/add-primary-account&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;email&quot;: &quot;Barak.Obama5689@Gmail.com&quot;,&quot;title&quot;: &quot;Mr&quot;,&quot;firstName&quot;: &quot;Barak&quot;,&quot;lastName&quot;: &quot;Obama&quot;,&quot;gender&quot;: &quot;MALE&quot;,&quot;maritalStatus&quot;: &quot;MARRIED&quot;,&quot;employmentStatus&quot;: &quot;EX-President&quot;,&quot;dateOfBirth&quot;: &quot;1973-08-17&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref passed">14</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &quot;Bearer &quot; + generatedToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref passed">15</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">531</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.15">19:16:47.641 request:
+2 &gt; POST https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account
+2 &gt; Authorization: Bearer eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2NTg0NDU0MDcsImlhdCI6MTY1ODM1OTAwN30.8I9NwO0G4LjNgNxT1m65Gm5rnlYWKAvJNE2y4BQev_q-fgU2M1n5mBuE1Mx4pKb_QnpSvBx50ic99S19MeIsxg
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 192
+2 &gt; Host: tek-insurance-api.azurewebsites.net
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;Barak.Obama5689@Gmail.com&quot;,&quot;title&quot;:&quot;Mr&quot;,&quot;firstName&quot;:&quot;Barak&quot;,&quot;lastName&quot;:&quot;Obama&quot;,&quot;gender&quot;:&quot;MALE&quot;,&quot;maritalStatus&quot;:&quot;MARRIED&quot;,&quot;employmentStatus&quot;:&quot;EX-President&quot;,&quot;dateOfBirth&quot;:&quot;1973-08-17&quot;}
+
+19:16:48.171 response time in milliseconds: 529
+2 &lt; 201
+2 &lt; Content-Type: application/json
+2 &lt; Date: Wed, 20 Jul 2022 23:16:47 GMT
+2 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 &lt; Expires: 0
+2 &lt; Pragma: no-cache
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Origin
+2 &lt; Vary: Access-Control-Request-Method
+2 &lt; Vary: Access-Control-Request-Headers
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 &lt; X-Frame-Options: DENY
+2 &lt; Set-Cookie: JSESSIONID=628F26ECEFC754B07E81A459559960EC; Domain=tek-insurance-api.azurewebsites.net; Secure
+{&quot;id&quot;:693,&quot;email&quot;:&quot;Barak.Obama5689@Gmail.com&quot;,&quot;title&quot;:&quot;Mr&quot;,&quot;firstName&quot;:&quot;Barak&quot;,&quot;lastName&quot;:&quot;Obama&quot;,&quot;gender&quot;:&quot;MALE&quot;,&quot;maritalStatus&quot;:&quot;MARRIED&quot;,&quot;employmentStatus&quot;:&quot;EX-President&quot;,&quot;dateOfBirth&quot;:114393600000,&quot;user&quot;:null}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.16">
+      <div class="step-ref passed">16</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.17">
+      <div class="step-ref passed">17</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.17">19:16:48.172 [print] {
+  &quot;id&quot;: 693,
+  &quot;email&quot;: &quot;Barak.Obama5689@Gmail.com&quot;,
+  &quot;title&quot;: &quot;Mr&quot;,
+  &quot;firstName&quot;: &quot;Barak&quot;,
+  &quot;lastName&quot;: &quot;Obama&quot;,
+  &quot;gender&quot;: &quot;MALE&quot;,
+  &quot;maritalStatus&quot;: &quot;MARRIED&quot;,
+  &quot;employmentStatus&quot;: &quot;EX-President&quot;,
+  &quot;dateOfBirth&quot;: 114393600000,
+  &quot;user&quot;: null
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:19]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">Regression</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:19]</span>
+                <span class="scenario-name">Create account with an exisiting email Address</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>738</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:19]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://tek-insurance-api.azurewebsites.net/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>path &#39;/api/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;username&quot;: &quot;supervisor&quot;,&quot;password&quot;: &quot;tek_supervisor&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">429</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">19:16:48.177 request:
+1 &gt; POST https://tek-insurance-api.azurewebsites.net/api/token
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 53
+1 &gt; Host: tek-insurance-api.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;username&quot;:&quot;supervisor&quot;,&quot;password&quot;:&quot;tek_supervisor&quot;}
+
+19:16:48.605 response time in milliseconds: 428
+1 &lt; 200
+1 &lt; Content-Type: application/json
+1 &lt; Date: Wed, 20 Jul 2022 23:16:47 GMT
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Expires: 0
+1 &lt; Pragma: no-cache
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Vary: Origin
+1 &lt; Vary: Access-Control-Request-Method
+1 &lt; Vary: Access-Control-Request-Headers
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+1 &lt; X-Frame-Options: DENY
+{&quot;fullName&quot;:&quot;Supervisor&quot;,&quot;username&quot;:&quot;SUPERVISOR&quot;,&quot;token&quot;:&quot;eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2NTg0NDU0MDgsImlhdCI6MTY1ODM1OTAwOH0.EKZgwg6yA5jFa_ll7c3RU7iyRv2bM--pNqRurpi3MB1xmx8E6AY2mDLEam5ELLROAoH9HXMm-ii_LWw-g0Djjg&quot;,&quot;generateDate&quot;:1658359008006,&quot;accountType&quot;:&quot;CSR&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:19]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def generatedToken = response.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/accounts/add-primary-account&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;email&quot;: &quot;Barak.Obama@Gmail.com&quot;,&quot;title&quot;: &quot;Mr&quot;,&quot;firstName&quot;: &quot;Barak&quot;,&quot;lastName&quot;: &quot;Obama&quot;,&quot;gender&quot;: &quot;MALE&quot;,&quot;maritalStatus&quot;: &quot;MARRIED&quot;,&quot;employmentStatus&quot;: &quot;EX-President&quot;,&quot;dateOfBirth&quot;: &quot;1973-08-17&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.22">
+      <div class="step-ref passed">22</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &quot;Bearer &quot; + generatedToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">307</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.23">19:16:48.608 request:
+2 &gt; POST https://tek-insurance-api.azurewebsites.net/api/accounts/add-primary-account
+2 &gt; Authorization: Bearer eyJraWQiOiJUZWtzY2hvb2wgSW5zdXJhbmNlIEFwcGxpY2F0aW9uIiwidHlwIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJhdWQiOiJVc2VyIG1hbmFnZW1lbnQgcG9ydGFsIiwic3ViIjoiU1VQRVJWSVNPUiIsImlzcyI6IlRlayBJbnN1cmFuY2UgQXBwbGljYXRpb24iLCJBdXRob3JpdGllcyI6WyJBRE1JTiJdLCJleHAiOjE2NTg0NDU0MDgsImlhdCI6MTY1ODM1OTAwOH0.EKZgwg6yA5jFa_ll7c3RU7iyRv2bM--pNqRurpi3MB1xmx8E6AY2mDLEam5ELLROAoH9HXMm-ii_LWw-g0Djjg
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 188
+2 &gt; Host: tek-insurance-api.azurewebsites.net
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_311)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;Barak.Obama@Gmail.com&quot;,&quot;title&quot;:&quot;Mr&quot;,&quot;firstName&quot;:&quot;Barak&quot;,&quot;lastName&quot;:&quot;Obama&quot;,&quot;gender&quot;:&quot;MALE&quot;,&quot;maritalStatus&quot;:&quot;MARRIED&quot;,&quot;employmentStatus&quot;:&quot;EX-President&quot;,&quot;dateOfBirth&quot;:&quot;1973-08-17&quot;}
+
+19:16:48.913 response time in milliseconds: 305
+2 &lt; 400
+2 &lt; Content-Type: application/json
+2 &lt; Date: Wed, 20 Jul 2022 23:16:48 GMT
+2 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 &lt; Expires: 0
+2 &lt; Pragma: no-cache
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Vary: Origin
+2 &lt; Vary: Access-Control-Request-Method
+2 &lt; Vary: Access-Control-Request-Headers
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; Strict-Transport-Security: max-age=31536000 ; includeSubDomains
+2 &lt; X-Frame-Options: DENY
+2 &lt; Set-Cookie: JSESSIONID=777331AE30A5CC101E5D0045DE5A5A1E; Domain=tek-insurance-api.azurewebsites.net; Secure
+{&quot;errorCode&quot;:&quot;ACCOUNT_EXIST&quot;,&quot;httpStatus&quot;:&quot;BAD_REQUEST&quot;,&quot;errorMessage&quot;:&quot;Account with Email Barak.Obama@Gmail.com is exist&quot;}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">19:16:48.914 [print] {
+  &quot;errorCode&quot;: &quot;ACCOUNT_EXIST&quot;,
+  &quot;httpStatus&quot;: &quot;BAD_REQUEST&quot;,
+  &quot;errorMessage&quot;: &quot;Account with Email Barak.Obama@Gmail.com is exist&quot;
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def errorMsg = response.errorMessage</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>assert errorMsg == &#39;Account with Email Barak.Obama@Gmail.com is exist&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
