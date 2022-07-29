@@ -10,7 +10,7 @@ Then status 200
 	
 Scenario: Create new Account happy path
 Given path '/api/accounts/add-primary-account'
-And request {"email": "Barak.Obama456@Gmail.com","title": "Mr","firstName": "Barak","lastName": "Obama","gender": "MALE","maritalStatus": "MARRIED","employmentStatus": "EX-President","dateOfBirth": "1973-08-17"}
+And request {"email": "Barak.Omama1212@Gmail.com","title": "Mr","firstName": "Barak","lastName": "Obama","gender": "MALE","maritalStatus": "MARRIED","employmentStatus": "EX-President","dateOfBirth": "1973-08-17"}
 And header Authorization = "Bearer " + generatedToken
 When method post
 Then status 201
