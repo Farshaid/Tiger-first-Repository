@@ -32,7 +32,7 @@ And print response
 Scenario: Add Phone Number to Exisiting account.
 Given path '/api/accounts/add-account-phone'
 And param primaryPersonId = '43'
-And request {"phoneNumber": "29012712167","phoneExtension": "002","phoneTime": "Evening","phoneType": "Work"}
+And request {"phoneNumber": "0127121345","phoneExtension": "002","phoneTime": "Evening","phoneType": "Work"}
 And header Authorization = 'Bearer ' + generatedToken
 When method post
 Then status 201
